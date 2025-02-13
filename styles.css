@@ -1,0 +1,279 @@
+/* General body styling */
+body {
+    padding-top: 70px;
+    height: 100%; /* Add some space below the fixed navbar */
+  }
+  
+  /* Make the navbar background transparent, or you can use any color */
+  .navbar {
+    background-color: #785f5f; /* White background for a clean look */
+  }
+  
+  /* Hover effect for navbar items */
+  .nav-link:hover {
+    color: #530dcb !important; /* Blue color on hover */
+  }
+  
+  /* Styling for navbar dropdown items */
+  .nav-item.dropdown .dropdown-menu {
+    background-color: #eddfdf; /* Dropdown background color */
+    border: 1px solid #d80d13; /* Blue border for the dropdown */
+  }
+  
+  /* Optional: Styling for the logo size (can be adjusted) */
+  .navbar-brand img {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Mobile Navbar Toggler (hamburger menu) */
+  .navbar-toggler {
+    border-color: #111111; /* Toggler border color */
+  }
+  
+  /* Optional: Styling for active links */
+  .nav-link.active {
+    color: #3e3e81 !important; /* Active link color */
+  }
+  
+  /* Additional styling for links when hovered in the navbar */
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  /* Add animation on page load */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply fade-in animation */
+  img.img-fluid {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+
+footer.bg-dark {
+    padding-top: 5px;
+     padding-bottom: 5px; 
+    }
+
+   
+
+
+.social-icons a {
+    text-decoration: none;
+    color: #ce0e0e;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ced3d6; /* Facebook Blue */
+    transform: translateY(-5px);
+}
+
+.social-icons i {
+    font-size: 20px;
+}
+
+.social-icons h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #d9cdcd;
+}
+
+.social-icons a:not(:last-child) {
+    margin-right: 20px; /* Space between icons */
+}
+
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center; /* Aligns icon, label, and content vertically */
+    font-size: 18px;
+    color: #fdf3f3;
+    margin-bottom: 12px; /* Space between list items */
+}
+
+.contact-info i {
+    color: #0077b5; /* Icon color */
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 20px; /* Slightly larger icon for visibility */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-info i:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+    color: #0c0b0b; /* Change color on hover for interaction */
+}
+
+.contact-info h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ebe5e5; /* Darker color for the labels */
+    margin-right: 10px; /* Space between label and content */
+}
+
+.contact-info li:last-child {
+    margin-bottom: 0; /* Remove margin from the last list item */
+}
+
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* You can change this to any font you prefer */
+}
+
+.brand-text {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #050505, #060606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Ensures transparency */
+    color: white; /* Fallback for unsupported browsers */
+}
+.signin-section {
+    background: #222; /* Dark grayish-black background */
+    border: 2px solid #444; /* Subtle border */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.form-control {
+    background-color: rgba(50, 50, 50, 0.9);
+    border: 2px solid #666;
+    color: white;
+}
+
+.form-control:focus {
+    border-color: #999;
+    box-shadow: 0 0 5px #999;
+}
+
+.btn-primary {
+    background-color: #444; /* Dark button */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #666;
+}
+/* Black Theme Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    margin-top: 60px;
+}
+
+.signup-section {
+    background: linear-gradient(to right, #1f1f1f, #121212);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+    margin: 30px auto;
+    padding: 40px;
+    max-width: 450px;
+    border: 2px solid #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-label {
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.form-control:focus {
+    border-color: #090909;
+    box-shadow: 0 0 5px #ff6a00;
+}
+
+.btn-primary {
+    background-color: #040403;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0a090a;
+}
+
+.btn-danger {
+    background-color: #060505;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #080808;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 1.3rem;
+}
+
+.social-links a:hover {
+    color: #ff6a00;
+}
+
+.invalid-feedback {
+    font-size: 0.9rem;
+    color: #e74c3c;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Weekend Payana</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional: Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Smooth Scroll (Optional, but recommended for a better user experience) -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: lavender;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="WhatsApp Image 2025-02-13 at 21.13.59_0c4e0b69.jpg" alt="Weekend Payana Logo" class="d-inline-block align-text-top" width="50" height="auto">
+                <span class="brand-text">Weekend Payana</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <!-- Services Link (Dropdown Menu) -->
+                    <li class="nav-item dropdown">
+                        <!-- Services link to services.html -->
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" 
+                           aria-expanded="false" href="services.html" >
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- Scroll to section links (only functional on services.html) -->
+                            <li><a class="dropdown-item" href="services.html#tour-packages">Tour Packages</a></li>
+                            <li><a class="dropdown-item" href="services.html#flight-booking">Flight Booking</a></li>
+                            <li><a class="dropdown-item" href="services.html#hotel-reservations">Hotel Reservations</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Section -->
+<section id="tour-packages" class="services-section py-5" style="background-color: black; color: white;">
+    <div class="container">
+        <h2 class="text-center mb-5 text-warning">OUR SERVICES</h2>
+
+        <!-- Tour Packages -->
+        <div class="service-item mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-1 text-center">
+                    <img src="https://iphoneswallpapers.com/wp-content/uploads/2020/12/World-Travelling-iPhone-Wallpaper.jpg" 
+                         alt="Tour Packages" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-md-6 order-md-2">
+                    <h3 class="text-warning">Tour Packages</h3>
+                    <p>Explore a variety of curated tour packages for your weekend getaway. Whether you're looking for nature, adventure, or a peaceful retreat, we have something for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Flight Booking Section -->
+<section id="flight-booking" class="services-section py-5" style="background-color: black; color: white;">
+    <div class="container">
+        <div class="service-item mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2 text-center">
+                    <img src="https://www.shutterstock.com/image-photo/airplane-isolated-on-black-background-600nw-1182416089.jpg" 
+                         alt="Flight Booking" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h3 class="text-warning">Flight Booking</h3>
+                    <p>Book your flights easily with our reliable and fast flight booking system. Choose from a range of destinations and airlines to suit your preferences and budget.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hotel Reservations Section -->
+<section id="hotel-reservations" class="services-section py-5" style="background-color: black; color: white;">
+    <div class="container">
+        <div class="service-item mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-1 text-center">
+                    <img src="https://c1.wallpaperflare.com/preview/184/729/230/hotel-sign-neon-red.jpg" 
+                         alt="Hotel Reservations" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-md-6 order-md-2">
+                    <h3 class="text-warning">Hotel Reservations</h3>
+                    <p>Reserve the best hotels at your destination for a comfortable stay. We provide a variety of options for every budget, ensuring you have the best experience during your weekend getaway.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Tour Guides Section -->
+<section id="tour-guides" class="services-section py-5" style="background: url('https://i.pinimg.com/736x/23/b9/ef/23b9efc32e61c98b016a0af63d175460.jpg') no-repeat center center/cover; color: white;">
+    <div class="container">
+        <h2 class="text-center mb-5">MEET OUR TOUR GUIDES</h2>
+
+        <!-- Tour Package Guides -->
+        <div class="service-item mb-4">
+            <h3>Tour Package Guides</h3>
+            <ul>
+                <li>Darshan JGR</li>
+                <li>Pavithra</li>
+            </ul>
+        </div>
+
+        <!-- Flight Booking Guides -->
+        <div class="service-item mb-4">
+            <h3>Flight Booking Guides</h3>
+            <ul>
+                <li>Narasimraju BLPR</li>
+                <li>Nivedita GDA</li>
+            </ul>
+        </div>
+
+        <!-- Additional Guides -->
+        <div class="service-item mb-4">
+            <h3>Additional Guides</h3>
+            <ul>
+                <li>STR</li>
+                <li>GR</li>
+                <li>SKB</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>PRAVAASA WITH STR</h5>
+                    <p>Your travel companion for unforgettable weekend getaways.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            // Adjust scroll behavior for links with href starting with "#"
+            $('a[href^="#"]').on('click', function(event) {
+                var target = $(this.getAttribute('href')); // Get the target section
+                if (target.length) {
+                    event.preventDefault(); // Prevent default anchor behavior
+                    
+                    // Scroll to the target section with an offset for the fixed navbar
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - $('.navbar').outerHeight()
+                    }, 800); // 800ms animation duration
+                }
+            });
+        });
+    </script>
+    
+    
+    <!-- Bootstrap JS (Optional for interactive features like collapsing menu) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+
+</html>
